@@ -24,8 +24,8 @@
     </NuGetPackageImportStamp>
     <TargetFrameworkProfile />
     <Use64BitIISExpress />
-    <ApplicationInsightsResourceId>/subscriptions/4521f350-fcd3-4a43-9e23-33c294f092f6/resourcegroups/AppInsightsTest-A/providers/microsoft.insights/components/AppInsightsTestBot-Ab6gapf</ApplicationInsightsResourceId>
-    <ApplicationInsightsAnnotationResourceId>/subscriptions/4521f350-fcd3-4a43-9e23-33c294f092f6/resourcegroups/AppInsightsTest-A/providers/microsoft.insights/components/AppInsightsTestBot-Ab6gapf</ApplicationInsightsAnnotationResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/XXX-YYYY-ZZZ/resourcegroups/AppInsightsTest-A/providers/microsoft.insights/components/AppInsightsTestBot-Ab6gapf</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/XXX-YYYY-ZZZ/resourcegroups/AppInsightsTest-A/providers/microsoft.insights/components/AppInsightsTestBot-Ab6gapf</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
