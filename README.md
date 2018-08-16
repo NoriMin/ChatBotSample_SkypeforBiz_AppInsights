@@ -1,7 +1,7 @@
 # ChatBotSample_SkypeforBiz_AppInsights
 
 Azure Bot FrameworkとQnA Maker Serviceを用いて作成した、Skype for Business用ChatBotのサンプルコード(C#版)です。Application Insightsを用いて、チャットログのトレースを行うことができます。
-Visual Studioを用いずに、Azureポータル上の簡単な設定だけでChatBotを動かすことが出来ます。Skype for BusinessではRich Interface(選択ボタンetc)が機能しないため、数字での入力をユーザに促す設定になっています。 ChatBotやログ解析のPoCに、お使いいただけます。
+Visual Studioを用いずに、Azureポータル上の簡単な設定だけでChatBotを動かすことが出来ます。Skype for BusinessではRich Interface(選択ボタンetc)が機能しないため、数字での入力をユーザに促す設定になっています。 ChatBotやApplication Insightsを用いたログ解析のPoCに、お使いいただけます。
 
 # Azure Bot Serviceの作成
 
@@ -40,4 +40,40 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 1. App Serviceの画面左側のリストから**デプロイ オプション**を選択してください。
 
-2.
+2. **ソースの選択**から**外部リポジトリ**を選択してください。
+
+<a href="https://imgur.com/FyEg10e"><img src="https://i.imgur.com/FyEg10e.png" title="source: imgur.com" /></a>
+
+3. **リポジトリのURL**に、このリポジトリのURLを貼り付けて**OK**をクリックしてください。
+
+<a href="https://imgur.com/kOxwKva"><img src="https://i.imgur.com/kOxwKva.png" title="source: imgur.com" /></a>
+
+4. 完了すると、以下のような画面になります。
+
+<a href="https://imgur.com/7Cohg22"><img src="https://i.imgur.com/7Cohg22.png" title="source: imgur.com" /></a>
+
+# Application Insightsとのリンク
+
+1. App Serviceの画面左側のリストから、**Application Insights** を選択して頂き、**変更** をクリックしてください。
+
+<a href="https://imgur.com/kfkTXsn"><img src="https://i.imgur.com/kfkTXsn.png" title="source: imgur.com" /></a>
+
+2. **既存のリソースの選択**でWeb App Botと共にデプロイしたApplication Insightsリソースを選択してください。**アプリケーションのインストゥルメンテーション**でランタイム/フレームワークをASP.NETとしてください。
+
+<a href="https://imgur.com/xr0G9Oh"><img src="https://i.imgur.com/xr0G9Oh.png" title="source: imgur.com" /></a>
+
+3. OKをクリックすると、以下のようなポップアップが表示されますが**続行**を選択してください。
+
+<a href="https://imgur.com/RYGTmta"><img src="https://i.imgur.com/RYGTmta.png" title="source: imgur.com" /></a>
+
+# 動作確認
+
+以上で、セットアップは終了です。実際にWebチャットでテスト後、Application Insightsの分析ポータルからクエリを実行して動作確認を行ってください。
+
+<a href="https://imgur.com/38pzIM1"><img src="https://i.imgur.com/38pzIM1.png" title="source: imgur.com" /></a>
+
+<a href="https://imgur.com/7FyHALO"><img src="https://i.imgur.com/7FyHALO.png" title="source: imgur.com" /></a>
+
+
+
+
