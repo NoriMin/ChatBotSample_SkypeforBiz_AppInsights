@@ -58,7 +58,7 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 <a href="https://imgur.com/kfkTXsn"><img src="https://i.imgur.com/kfkTXsn.png" title="source: imgur.com" /></a>
 
-2. **既存のリソースの選択**でWeb App Botと共にデプロイしたApplication Insightsリソースを選択してください。**アプリケーションのインストゥルメンテーション**でランタイム/フレームワークをASP.NETとしてください。
+2. **既存のリソースの選択**でWeb App Botと共にデプロイしたApplication Insightsリソースを選択してください。**アプリケーションのインストゥルメンテーション**でランタイム/フレームワークを**ASP.NET**としてください。
 
 <a href="https://imgur.com/xr0G9Oh"><img src="https://i.imgur.com/xr0G9Oh.png" title="source: imgur.com" /></a>
 
@@ -74,6 +74,6 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 <a href="https://imgur.com/7FyHALO"><img src="https://i.imgur.com/7FyHALO.png" title="source: imgur.com" /></a>
 
-
+※Application Insightsからログデータを見る際には、2~5分程度のラグがありますが通常の動きなので問題はありません。
 
 
