@@ -46,7 +46,7 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 <a href="https://imgur.com/FyEg10e"><img src="https://i.imgur.com/FyEg10e.png" title="source: imgur.com" /></a>
 
-3. **リポジトリのURL**に、このリポジトリのURLを貼り付けて**OK**をクリックしてください。
+3. **リポジトリのURL**に、このリポジトリのURL(<https://github.com/NoriMin/ChatBotSample_SkypeforBiz_AppInsights.git>)をコピー&ペーストして**OK**をクリックしてください。
 
 <a href="https://imgur.com/kOxwKva"><img src="https://i.imgur.com/kOxwKva.png" title="source: imgur.com" /></a>
 
