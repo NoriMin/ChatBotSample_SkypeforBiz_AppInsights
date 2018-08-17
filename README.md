@@ -31,7 +31,9 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 <a href="https://imgur.com/xNjbowM"><img src="https://i.imgur.com/xNjbowM.png" title="source: imgur.com" /></a>
 
-2. App Service Editorの画面にて、画面左側に複数個のフォルダとファイルがあるかと思います。これらを全て削除してください(ファイル名上で右クリック→Delete)。
+2. App Service Editorの画面にて、画面左側に複数個のフォルダとファイルがあるかと思います。これらを**全て削除**してください(ファイル名上で右クリック→Delete)。
+
+<a href="https://imgur.com/MG1vn0G"><img src="https://i.imgur.com/MG1vn0G.png" title="source: imgur.com" /></a>
 
 3. 変更内容は全て自動で保存されます。すべて削除し終わったら、Azureポータル画面にお戻り下さい。
 
@@ -58,7 +60,7 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 <a href="https://imgur.com/kfkTXsn"><img src="https://i.imgur.com/kfkTXsn.png" title="source: imgur.com" /></a>
 
-2. **既存のリソースの選択**でWeb App Botと共にデプロイしたApplication Insightsリソースを選択してください。**アプリケーションのインストゥルメンテーション**でランタイム/フレームワークを**ASP.NET**としてください。
+2. **既存のリソースの選択**でWeb App Botと共にデプロイしたApplication Insightsリソースを選択してください。**アプリケーションのインストゥルメンテーション**でランタイム/フレームワークを**ASP.NET**としてください。Web App Botデプロイ時にApplication Insightsを作成していない場合は、**新しいリソースの作成**を行ってください。
 
 <a href="https://imgur.com/xr0G9Oh"><img src="https://i.imgur.com/xr0G9Oh.png" title="source: imgur.com" /></a>
 
@@ -68,12 +70,28 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 # 動作確認
 
-以上で、セットアップは終了です。実際にWebチャットでテスト後、Application Insightsの分析ポータルからクエリを実行して動作確認を行ってください。
+以上で、セットアップは終了です。Web Chatや登録済みのSkype for Businessから動作確認を行ってください。
 
 <a href="https://imgur.com/38pzIM1"><img src="https://i.imgur.com/38pzIM1.png" title="source: imgur.com" /></a>
 
+# Application Insightsを用いたログの確認
+
+1. 設定を行ったApplication Insightsの**概要**タブから**分析**を選択してください(ブラウザで別ウィンドウが開きます)。
+
+<a href="https://imgur.com/vQtT6sV"><img src="https://i.imgur.com/vQtT6sV.png" title="source: imgur.com" /></a>
+
+2. 画面左上の**+**を選択して、新しいタブを作成してください。
+
+<a href="https://imgur.com/LcZphMz"><img src="https://i.imgur.com/LcZphMz.png" title="source: imgur.com" /></a>
+
+3. 画面上部の空欄にクエリを入力します。クエリの詳細については、以下のリンクをご参照ください。
+
+<a href="https://imgur.com/3Miukyz"><img src="https://i.imgur.com/3Miukyz.png" title="source: imgur.com" /></a>
+
+4. クエリ作成後、**RUN**を押すと結果を見ることが出来ます。
+
 <a href="https://imgur.com/7FyHALO"><img src="https://i.imgur.com/7FyHALO.png" title="source: imgur.com" /></a>
 
-※Application Insightsからログデータを見る際には、2~5分程度のラグがありますが通常の動きなので問題はありません。
+※Application Insightsからログデータを見る際には、ボットに入力があってから2~5分程度のラグがある場合がありますが、通常の動きなので問題はありません。
 
 
