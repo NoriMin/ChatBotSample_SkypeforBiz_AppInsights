@@ -80,18 +80,23 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 <a href="https://imgur.com/vQtT6sV"><img src="https://i.imgur.com/vQtT6sV.png" title="source: imgur.com" /></a>
 
-2. 画面左上の**+**を選択して、新しいタブを作成してください。
+2. 画面左上の**＋**を選択して、新しいタブを作成してください。
 
 <a href="https://imgur.com/LcZphMz"><img src="https://i.imgur.com/LcZphMz.png" title="source: imgur.com" /></a>
 
-3. 画面上部の空欄にクエリを入力します。クエリの詳細については、以下のリンクをご参照ください。
+3. 画面上部の空欄にクエリを入力します。クエリの詳細については、**以下のリンク**をご参照ください。
 
 <a href="https://imgur.com/3Miukyz"><img src="https://i.imgur.com/3Miukyz.png" title="source: imgur.com" /></a>
 
 4. クエリ作成後、**RUN**を押すと結果を見ることが出来ます。
 
-<a href="https://imgur.com/7FyHALO"><img src="https://i.imgur.com/7FyHALO.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/YVApXEm"><img src="https://i.imgur.com/YVApXEm.png" title="source: imgur.com" /></a>
 
 ※Application Insightsからログデータを見る際には、ボットに入力があってから2~5分程度のラグがある場合がありますが、通常の動きなので問題はありません。
 
+5. 結果を.csvファイルにエクスポートし、Excel等で管理することも可能です。
+
+<a href="https://imgur.com/V6ZeE34"><img src="https://i.imgur.com/V6ZeE34.png" title="source: imgur.com" /></a>
+
+<a href="https://imgur.com/SvDI2EC"><img src="https://i.imgur.com/SvDI2EC.png" title="source: imgur.com" /></a>
 
