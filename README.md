@@ -97,3 +97,5 @@ Visual Studioを用いずに、Azureポータル上の簡単な設定だけでCh
 
 <a href="https://imgur.com/SvDI2EC"><img src="https://i.imgur.com/SvDI2EC.png" title="source: imgur.com" /></a>
 
+# 留意事項
+ここで示した手順では、ChatBotおよびApplicationInsightsによるログ取得の動作確認を行っていただけますが、ソースコードの編集は行えません。ソースコードを編集できる形で共有できるように、現在検証を行っていますので、今しばらくお待ちください。
