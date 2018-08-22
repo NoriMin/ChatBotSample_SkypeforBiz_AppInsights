@@ -12,7 +12,6 @@ namespace ChatBot_SfB_AI.Models
             string endpoint = ConfigurationManager.AppSettings["QnAEndpointHostName"] + "/knowledgebases/" + ConfigurationManager.AppSettings["QnAKnowledgebaseId"] + "/generateAnswer";
             string input_json = "{\"question\":\"" + messageText + "\",\"top\": \"5\"}";
 
-
             using (var client = new HttpClient())
             {
                 using (var request = new HttpRequestMessage(HttpMethod.Post, endpoint))
@@ -26,7 +25,9 @@ namespace ChatBot_SfB_AI.Models
                         {
                             string json = await response.Content.ReadAsStringAsync();
                             return json;
+                           
                         }
+                       
                         string failure = "failure";
                         return failure;
                     }
