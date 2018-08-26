@@ -23,22 +23,23 @@ namespace ChatBot_SfB_AI.Dialogs
 
         public virtual async Task MessageReceivedAsync(IDialogContext context, IAwaitable<IMessageActivity> item)
         {
+            int i;
             var message = await item;
 
             json = await CustomQnAMaker.GetResultAsync(message.Text);
 
-
             if (json != "failure")
             {
                 var result = JsonConvert.DeserializeObject<QnAMakerResults>(json);
-                var result2 = JsonConvert.DeserializeObject<QnAMakerResult>(json); 
-
-                if(result2.Score == 0)
+                     
+                if (result.Answers[0].Score == 0)
                 {
-                    await context.PostAsync("質問に対する回答が見つかりませんでした。");
+                    await ShowNoFAQ(context);
                 }
-
-                await ShowQuestions(context, result);
+                else
+                {
+                    await ShowQuestions(context, result);
+                }   
             }
             
         }
@@ -58,6 +59,13 @@ namespace ChatBot_SfB_AI.Dialogs
               
             context.Wait(ShowAnswer);
             
+        }
+
+        private async Task ShowNoFAQ(IDialogContext context)
+        {
+            await context.PostAsync("質問に対する回答が見つかりませんでした。");
+            context.Done<object>(null);
+
         }
 
         private async Task ShowAnswer(IDialogContext context, IAwaitable<IMessageActivity> item)
