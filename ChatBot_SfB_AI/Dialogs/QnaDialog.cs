@@ -23,7 +23,6 @@ namespace ChatBot_SfB_AI.Dialogs
 
         public virtual async Task MessageReceivedAsync(IDialogContext context, IAwaitable<IMessageActivity> item)
         {
-            int i;
             var message = await item;
 
             json = await CustomQnAMaker.GetResultAsync(message.Text);
